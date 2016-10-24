@@ -1,0 +1,40 @@
+- AWAY_ON: <devices>
+- AWAY_OFF: <devices>
+- BOOST_ON: '[{"hours":0, "minutes": 10}, <devices>]'
+- BOOST_OFF: '[{"hours":0, "minutes": 10}, <devices>]'
+- FROST_ON: <devices>
+- FROST_OFF: <devices>
+- HEAT: <devices>
+- LOCK: '[[1,2,3,4], <devices>]'
+- UNLOCK: <devices>
+- SET_DELAY: '[3, <devices>]'
+- SET_DIFF: '[0, <devices>]'
+- SET_FROST: '[12, <devices>]'
+- SET_TEMP: '[20, <devices>]'
+- SET_FORMAT: '"5DAY/2DAY"'
+- READ_COMFORT_LEVELS: <devices>
+- SET_COMFORT_LEVELS: '[{"monday":{"wake":["5:00",21],"leave":["07:00",16],"return":["17:00",21],"sleep":["20:00",12]},"sunday":{"wake":["24:00",15],"leave":["24:00",15],"return":["09:00",20],"sleep":["19:00",12]}}, <devices>]'
+- VIEW_ROC: <devices>
+- HOLD: '[{"temp":21, "id":"1123","hours":0,"minutes":2}, <devices>]'
+- GET_HOLD: '0'
+- CANCEL_HGROUP: '"1123"'
+- CANCEL_HOLD_ALL: '0'
+- HOLIDAY: '["<date>","<date>",<devices>]'
+- GET_HOLIDAY: '0'
+- CANCEL_HOLIDAY: '0'
+- STORE_PROFILE: '{"name": "profile", "group": <devices>, "info": <levels>}'
+- GET_PROFILE: '"profile"'
+- GET_PROFILES: '0'
+- RUN_PROFILE: '"Spring"'
+- CLEAR_PROFILE: '"profile"'
+- CREATE_GROUP: '[<devices>, "group"]'
+- GET_GROUPS: '0'
+- DELETE_GROUP: '"group"'
+- ZONE_TITLE: '["lounge", "lounge "]'
+- GET_ZONES: '0'
+- FIRMWARE: '0'
+- GET_HOURSRUN: <devices>
+- INFO: '0'
+- GET_TEMPLOG: '["Phil "]'
+- STATISTICS: '0'
+- SET_TEMP_FORMAT: '"C"'

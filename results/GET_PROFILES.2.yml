@@ -1,0 +1,495 @@
+---
+Guests:
+  group:
+  - Guest
+  info:
+    friday:
+      leave:
+      - '09:00'
+      - 16
+      return:
+      - '16:00'
+      - 21
+      sleep:
+      - '20:00'
+      - 16
+      wake:
+      - '6:00'
+      - 21
+    monday:
+      leave:
+      - '9:00'
+      - 16
+      return:
+      - '16:00'
+      - 21
+      sleep:
+      - '20:00'
+      - 16
+      wake:
+      - '6:00'
+      - 21
+    saturday:
+      leave:
+      - '9:00'
+      - 16
+      return:
+      - '16:00'
+      - 21
+      sleep:
+      - '20:00'
+      - 16
+      wake:
+      - '7:00'
+      - 21
+    sunday:
+      leave:
+      - '9:00'
+      - 16
+      return:
+      - '16:00'
+      - 21
+      sleep:
+      - '20:00'
+      - 16
+      wake:
+      - '7:00'
+      - 21
+    thursday:
+      leave:
+      - '9:00'
+      - 16
+      return:
+      - '16:00'
+      - 21
+      sleep:
+      - '20:00'
+      - 16
+      wake:
+      - '6:00'
+      - 21
+    tuesday:
+      leave:
+      - '9:00'
+      - 16
+      return:
+      - '16:00'
+      - 21
+      sleep:
+      - '20:00'
+      - 16
+      wake:
+      - '6:00'
+      - 21
+    wednesday:
+      leave:
+      - '09:00'
+      - 16
+      return:
+      - '16:00'
+      - 21
+      sleep:
+      - '20:00'
+      - 16
+      wake:
+      - '6:00'
+      - 21
+  name: Guests
+Mild:
+  group:
+  - 'lounge '
+  - 'hallway '
+  - 'dining '
+  - 'Phil '
+  - 'Claudi '
+  info:
+    friday:
+      leave:
+      - '6:00'
+      - 16
+      return:
+      - '16:00'
+      - 21
+      sleep:
+      - '19:00'
+      - 16
+      wake:
+      - '4:30'
+      - 21
+    monday:
+      leave:
+      - '6:00'
+      - 16
+      return:
+      - '16:00'
+      - 21
+      sleep:
+      - '19:00'
+      - 16
+      wake:
+      - '4:30'
+      - 21
+    saturday:
+      leave:
+      - '11:00'
+      - 18
+      return:
+      - '15:00'
+      - 21
+      sleep:
+      - '19:00'
+      - 16
+      wake:
+      - '5:00'
+      - 21
+    sunday:
+      leave:
+      - '11:00'
+      - 18
+      return:
+      - '15:00'
+      - 21
+      sleep:
+      - '19:00'
+      - 16
+      wake:
+      - '5:00'
+      - 21
+    thursday:
+      leave:
+      - '6:00'
+      - 16
+      return:
+      - '16:00'
+      - 21
+      sleep:
+      - '19:00'
+      - 16
+      wake:
+      - '4:30'
+      - 21
+    tuesday:
+      leave:
+      - '6:00'
+      - 16
+      return:
+      - '16:00'
+      - 21
+      sleep:
+      - '19:00'
+      - 16
+      wake:
+      - '4:30'
+      - 21
+    wednesday:
+      leave:
+      - '6:00'
+      - 16
+      return:
+      - '16:00'
+      - 21
+      sleep:
+      - '19:00'
+      - 16
+      wake:
+      - '4:30'
+      - 21
+  name: Mild
+Spring:
+  group:
+  - 'lounge '
+  - 'hallway '
+  - Guest
+  - 'Phil '
+  - 'dining '
+  - 'Claudi '
+  info:
+    friday:
+      leave:
+      - '09:00'
+      - 16
+      return:
+      - '16:00'
+      - 21
+      sleep:
+      - '22:00'
+      - 16
+      wake:
+      - '07:00'
+      - 21
+    monday:
+      leave:
+      - '24:00'
+      - 15
+      return:
+      - '17:00'
+      - 21
+      sleep:
+      - '20:00'
+      - 12
+      wake:
+      - '24:00'
+      - 15
+    saturday:
+      leave:
+      - '22:00'
+      - 16
+      return:
+      - '24:00'
+      - 21
+      sleep:
+      - '24:00'
+      - 16
+      wake:
+      - '09:00'
+      - 21
+    sunday:
+      leave:
+      - '24:00'
+      - 15
+      return:
+      - '9:00'
+      - 20
+      sleep:
+      - '19:00'
+      - 12
+      wake:
+      - '24:00'
+      - 15
+    thursday:
+      leave:
+      - '09:00'
+      - 16
+      return:
+      - '16:00'
+      - 21
+      sleep:
+      - '22:00'
+      - 16
+      wake:
+      - '07:00'
+      - 21
+    tuesday:
+      leave:
+      - '09:00'
+      - 16
+      return:
+      - '16:00'
+      - 21
+      sleep:
+      - '22:00'
+      - 16
+      wake:
+      - '07:00'
+      - 21
+    wednesday:
+      leave:
+      - '09:00'
+      - 16
+      return:
+      - '16:00'
+      - 21
+      sleep:
+      - '22:00'
+      - 16
+      wake:
+      - '07:00'
+      - 21
+  name: Spring
+Standby:
+  group:
+  - gym
+  - Guest
+  info:
+    friday:
+      leave:
+      - '24:00'
+      - 15
+      return:
+      - '15:00'
+      - 16
+      sleep:
+      - '19:00'
+      - 14
+      wake:
+      - '24:00'
+      - 15
+    monday:
+      leave:
+      - '24:00'
+      - 15
+      return:
+      - '15:00'
+      - 16
+      sleep:
+      - '19:00'
+      - 14
+      wake:
+      - '24:00'
+      - 15
+    saturday:
+      leave:
+      - '24:00'
+      - 15
+      return:
+      - '15:00'
+      - 16
+      sleep:
+      - '19:00'
+      - 14
+      wake:
+      - '24:00'
+      - 15
+    sunday:
+      leave:
+      - '24:00'
+      - 15
+      return:
+      - '15:00'
+      - 16
+      sleep:
+      - '19:00'
+      - 14
+      wake:
+      - '24:00'
+      - 15
+    thursday:
+      leave:
+      - '24:00'
+      - 15
+      return:
+      - '15:00'
+      - 16
+      sleep:
+      - '19:00'
+      - 14
+      wake:
+      - '24:00'
+      - 15
+    tuesday:
+      leave:
+      - '24:00'
+      - 15
+      return:
+      - '15:00'
+      - 16
+      sleep:
+      - '19:00'
+      - 14
+      wake:
+      - '24:00'
+      - 15
+    wednesday:
+      leave:
+      - '24:00'
+      - 15
+      return:
+      - '15:00'
+      - 16
+      sleep:
+      - '19:00'
+      - 14
+      wake:
+      - '24:00'
+      - 15
+  name: Standby
+'Winter ':
+  group:
+  - 'lounge '
+  - 'hallway '
+  - 'dining '
+  - 'Phil '
+  - 'Claudi '
+  info:
+    friday:
+      leave:
+      - '6:20'
+      - 16
+      return:
+      - '15:00'
+      - 21
+      sleep:
+      - '20:00'
+      - 16
+      wake:
+      - '4:00'
+      - 21
+    monday:
+      leave:
+      - '6:20'
+      - 16
+      return:
+      - '15:00'
+      - 21
+      sleep:
+      - '20:00'
+      - 16
+      wake:
+      - '4:00'
+      - 21
+    saturday:
+      leave:
+      - '11:00'
+      - 20
+      return:
+      - '15:00'
+      - 21
+      sleep:
+      - '20:00'
+      - 16
+      wake:
+      - '5:00'
+      - 21
+    sunday:
+      leave:
+      - '11:00'
+      - 20
+      return:
+      - '15:00'
+      - 21
+      sleep:
+      - '20:00'
+      - 16
+      wake:
+      - '5:00'
+      - 21
+    thursday:
+      leave:
+      - '6:20'
+      - 16
+      return:
+      - '15:00'
+      - 21
+      sleep:
+      - '20:00'
+      - 16
+      wake:
+      - '4:00'
+      - 21
+    tuesday:
+      leave:
+      - '6:20'
+      - 16
+      return:
+      - '15:00'
+      - 21
+      sleep:
+      - '20:00'
+      - 16
+      wake:
+      - '4:00'
+      - 21
+    wednesday:
+      leave:
+      - '6:20'
+      - 16
+      return:
+      - '15:00'
+      - 21
+      sleep:
+      - '20:00'
+      - 16
+      wake:
+      - '4:00'
+      - 21
+  name: 'Winter '
